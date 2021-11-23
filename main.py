@@ -4,7 +4,7 @@
 #Important Turtle Module 
 import turtle
 #Shows the box
-turtle.fd()
+turtle.fd(0)
 #Set the animation speed
 turtle.speed(0)
 #Set the background colour 
