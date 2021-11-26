@@ -102,9 +102,10 @@ class Missile(Sprite):
             self.fd(self.speed)
 
         #Border check 
-        if self.xcor() < -290 or self.xcor() > 290 or \ self.ycor()< -290 or self.ycor() > 290:
-          self.goto(-1000,1000)
-          self.status = ready
+        if self.xcor() < -290 or self.xcor() > 290 or \
+            self.ycor()< -290 or self.ycor() > 290:
+            self.goto(-1000,1000)
+            self.status = "ready"
 
 
 
